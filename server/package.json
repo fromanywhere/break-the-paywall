@@ -1,0 +1,14 @@
+{
+  "name": "break-the-paywall",
+  "version": "1.0.0",
+  "description": "Backend to serve html files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Metelev",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^15.2.1"
+  }
+}
