@@ -14,7 +14,8 @@ Server checks received token, optionally parse and apply transformations to the 
 If all the process is done well, server responds back with share link.
 
 ##Setup
-###Server
+**Server**
+
 Your need to have configured hosting resource to serve static html files with Apache/Nginx/whatever.
 Then it is necessary to provide server configuration using config.js according the example.
 
@@ -33,7 +34,8 @@ List of approved tokens to specify upload possibility to restrict unauthorized u
 `<rules> [optional]`
 List of by-domain rules to clean and transform redundant content like external stats scripts, ads and so on.
 
-###Client
+**Client**
+
 Unpack the extension code and install it into your Chrome.
 Please specify extension settings to configure data transfer.
 The extension require `endpoint url` and `token` from config.js `<token>` list.
