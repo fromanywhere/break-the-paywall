@@ -9,6 +9,6 @@
   "author": "Ivan Metelev",
   "license": "ISC",
   "dependencies": {
-    "jsdom": "^15.2.1"
+    "jsdom": "^16.5.0"
   }
 }
